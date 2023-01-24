@@ -30,7 +30,6 @@ function Card() {
               </div>
             );
           })}
-          <h2 id='select'>aopeifdmp eiod mpwqodm pqwod mpo</h2>
         </div>
       </Section>
     </React.Fragment>
