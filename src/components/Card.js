@@ -30,6 +30,7 @@ function Card() {
               </div>
             );
           })}
+          <h2 id='select'>aopeifdmp eiod mpwqodm pqwod mpo</h2>
         </div>
       </Section>
     </React.Fragment>
@@ -82,6 +83,7 @@ const Section = styled.section`
     padding: 1rem 0;
     font-size: 1.5rem;
     padding: 0.5rem 2rem;
+    color: #5c5555;
   }
   p {
     font-family: 'Lalezar', cursive;
@@ -89,12 +91,14 @@ const Section = styled.section`
     font-size: 1.3rem;
     font-weight: 900;
     padding: 0.5rem 2rem;
+    color: #a89797;
   }
   .location {
     display: flex;
     align-items: center;
     font-weight: 900;
     font-size: 1.5rem;
+    color: #705c5c;
     a {
       padding-left: 1rem;
     }

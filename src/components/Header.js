@@ -2,6 +2,19 @@ import React from 'react';
 import styled from 'styled-components';
 import earth from '../assets/earth.svg';
 
+function Header() {
+  return (
+    <>
+      <HeaderContainer>
+        <Logo src={earth} />
+        <Title>my travel journal.</Title>
+      </HeaderContainer>
+    </>
+  );
+}
+
+export default Header;
+//
 const HeaderContainer = styled.header`
   padding: 2rem 0;
   background-color: #f55a5a;
@@ -20,15 +33,3 @@ const Title = styled.h1`
   font-size: clamp(1.9rem, 3vw, 3rem);
   color: white;
 `;
-function Header() {
-  return (
-    <>
-      <HeaderContainer>
-        <Logo src={earth} />
-        <Title>my travel journal.</Title>
-      </HeaderContainer>
-    </>
-  );
-}
-
-export default Header;
